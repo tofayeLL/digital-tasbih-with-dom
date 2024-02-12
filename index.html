@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Tasbih</title>
+
+    <!-- tailwind and daisy ui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="container mx-auto px-4 lg:px-24  my-8">
+            <h1
+                class="text-4xl lg:text-6xl p-10 font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-[#3feed7] text-center">
+                Digital Tasbih</h1>
+        </div>
+
+        <section class="container mx-auto px-4 lg:px-24">
+            <!-- section container -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-6 gap-12">
+
+                <!-- subhanallah -->
+                <div class="text-center space-y-8 shadow-lg rounded-lg px-5 py-10">
+                    <h3 class="text-2xl font-semibold">Subahan Allah</h3>
+                    <p class="text-4xl">0</p>
+                    <div class="space-x-2">
+                        <button
+                            class="btn  text-white text-sm lg:text-base font-medium bg-[#00bba6] lg:hover:text-[#00bba6]">Increment</button>
+                        <button
+                            class="btn bg-red-400 text-sm lg:text-base font-medium text-white lg:hover:text-red-500">Decrement</button>
+                    </div>
+                </div>
+
+                <!-- Alhamdulillah -->
+                <div class="text-center space-y-8 shadow-lg rounded-lg px-5 py-10">
+                    <h3 class="text-2xl font-semibold">Alhamdulillah</h3>
+                    <p class="text-4xl">0</p>
+                    <div class="space-x-2">
+                        <button
+                            class="btn text-white text-sm lg:text-base font-medium bg-[#00bba6] lg:hover:text-[#00bba6]">Increment</button>
+                        <button
+                            class="btn bg-red-400 text-sm lg:text-base font-medium text-white lg:hover:text-red-500">Decrement</button>
+                    </div>
+                </div>
+
+                <!-- Allahuakbar -->
+                <div class="text-center space-y-8 shadow-lg rounded-lg px-5 py-10">
+                    <h3 class="text-2xl font-semibold">Allahuakber</h3>
+                    <p class="text-4xl">0</p>
+                    <div class="space-x-2">
+                        <button
+                            class="btn  text-white text-sm lg:text-base font-medium bg-[#00bba6] lg:hover:text-[#00bba6]">Increment</button>
+                        <button
+                            class="btn bg-red-400 text-sm lg:text-base font-medium text-white lg:hover:text-red-500">Decrement</button>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- reset -->
+            <div class="flex justify-center items-center my-10">
+                <button class="btn text-lg bg-red-400 text-white font-semibold  px-10 lg:hover:text-red-500">Reset All
+                    Tasbih</button>
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
