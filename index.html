@@ -30,11 +30,16 @@
                 <!-- subhanallah -->
                 <div class="text-center space-y-8 shadow-lg rounded-lg px-5 py-10">
                     <h3 class="text-2xl font-semibold">Subahan Allah</h3>
-                    <p class="text-4xl">0</p>
+                    <p id="subhanallahdisplay" class="text-4xl">
+                        0
+
+                    </p>
                     <div class="space-x-2">
-                        <button
+
+                        <button id="subhanallahincrement"
                             class="btn  text-white text-sm lg:text-base font-medium bg-[#00bba6] lg:hover:text-[#00bba6]">Increment</button>
-                        <button
+
+                        <button id="subhanallahdecrement"
                             class="btn bg-red-400 text-sm lg:text-base font-medium text-white lg:hover:text-red-500">Decrement</button>
                     </div>
                 </div>
@@ -42,11 +47,15 @@
                 <!-- Alhamdulillah -->
                 <div class="text-center space-y-8 shadow-lg rounded-lg px-5 py-10">
                     <h3 class="text-2xl font-semibold">Alhamdulillah</h3>
-                    <p class="text-4xl">0</p>
+                    <p id="alhamdulillahdisplay" class="text-4xl">
+                        0
+                    </p>
                     <div class="space-x-2">
-                        <button
+
+                        <button id="alhamdulillahincrement"
                             class="btn text-white text-sm lg:text-base font-medium bg-[#00bba6] lg:hover:text-[#00bba6]">Increment</button>
-                        <button
+
+                        <button id="alhamdulillahdecrement"
                             class="btn bg-red-400 text-sm lg:text-base font-medium text-white lg:hover:text-red-500">Decrement</button>
                     </div>
                 </div>
@@ -54,11 +63,15 @@
                 <!-- Allahuakbar -->
                 <div class="text-center space-y-8 shadow-lg rounded-lg px-5 py-10">
                     <h3 class="text-2xl font-semibold">Allahuakber</h3>
-                    <p class="text-4xl">0</p>
+                    <p id="allahuakbardisplay" class="text-4xl">
+                        0
+                    </p>
                     <div class="space-x-2">
-                        <button
+
+                        <button id="allahuakbarincrement"
                             class="btn  text-white text-sm lg:text-base font-medium bg-[#00bba6] lg:hover:text-[#00bba6]">Increment</button>
-                        <button
+
+                        <button id="allahuakbardecrement"
                             class="btn bg-red-400 text-sm lg:text-base font-medium text-white lg:hover:text-red-500">Decrement</button>
                     </div>
                 </div>
@@ -67,12 +80,18 @@
 
 
             <!-- reset -->
-            <div class="flex justify-center items-center my-10">
+            <div id="resetbutton"
+            class="flex justify-center items-center my-10">
                 <button class="btn text-lg bg-red-400 text-white font-semibold  px-10 lg:hover:text-red-500">Reset All
                     Tasbih</button>
             </div>
 
         </section>
+
+
+
+        <!-- connect java script -->
+        <script src="js/script.js"></script>
 
     </main>
     <footer>
